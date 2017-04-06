@@ -17,6 +17,7 @@
 		A00C6A231E95DF8C002B2FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00C6A211E95DF8C002B2FBC /* LaunchScreen.storyboard */; };
 		A00C6A2E1E95DF8C002B2FBC /* LDDMultithreadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C6A2D1E95DF8C002B2FBC /* LDDMultithreadTests.m */; };
 		A00C6A391E95DF8C002B2FBC /* LDDMultithreadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C6A381E95DF8C002B2FBC /* LDDMultithreadUITests.m */; };
+		A0E696541E95F48200EB9F15 /* LDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E696531E95F48200EB9F15 /* LDButton.m */; };
 		C01C71DBCCE18085A6C63353 /* libPods-LDDMultithreadUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5CFE25DDBC9FD071662CEB /* libPods-LDDMultithreadUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,8 @@
 		A00C6A341E95DF8C002B2FBC /* LDDMultithreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDDMultithreadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00C6A381E95DF8C002B2FBC /* LDDMultithreadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDDMultithreadUITests.m; sourceTree = "<group>"; };
 		A00C6A3A1E95DF8C002B2FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E696521E95F48200EB9F15 /* LDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDButton.h; sourceTree = "<group>"; };
+		A0E696531E95F48200EB9F15 /* LDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDButton.m; sourceTree = "<group>"; };
 		AF38C9FB6AC3680F5D0CDA95 /* Pods-LDDMultithreadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDDMultithreadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDDMultithreadTests/Pods-LDDMultithreadTests.release.xcconfig"; sourceTree = "<group>"; };
 		B3913B7F2356FE49527ADA03 /* Pods-LDDMultithread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDDMultithread.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDDMultithread/Pods-LDDMultithread.debug.xcconfig"; sourceTree = "<group>"; };
 		BF4D562B90A495CF6B1A683E /* Pods-LDDMultithreadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDDMultithreadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDDMultithreadUITests/Pods-LDDMultithreadUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 		A00C6A121E95DF8C002B2FBC /* LDDMultithread */ = {
 			isa = PBXGroup;
 			children = (
+				A0E696511E95F46200EB9F15 /* Other */,
 				A00C6A161E95DF8C002B2FBC /* AppDelegate.h */,
 				A00C6A171E95DF8C002B2FBC /* AppDelegate.m */,
 				A00C6A191E95DF8C002B2FBC /* ViewController.h */,
@@ -168,6 +172,15 @@
 				A00C6A3A1E95DF8C002B2FBC /* Info.plist */,
 			);
 			path = LDDMultithreadUITests;
+			sourceTree = "<group>";
+		};
+		A0E696511E95F46200EB9F15 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A0E696521E95F48200EB9F15 /* LDButton.h */,
+				A0E696531E95F48200EB9F15 /* LDButton.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 		BF746672D636BB15FC210A7F /* Frameworks */ = {
@@ -445,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00C6A1B1E95DF8C002B2FBC /* ViewController.m in Sources */,
+				A0E696541E95F48200EB9F15 /* LDButton.m in Sources */,
 				A00C6A181E95DF8C002B2FBC /* AppDelegate.m in Sources */,
 				A00C6A151E95DF8C002B2FBC /* main.m in Sources */,
 			);
